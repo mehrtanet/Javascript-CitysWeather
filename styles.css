@@ -1,0 +1,26 @@
+.weather-wrapper {
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t1 {
+    background-color: #fffc4c;
+}
+
+.t2 {
+    background-color: #5aff2c;
+}
+
+.t3 {
+    background-color: #2cffb0;
+}
+
+.t4 {
+    background-color: #2cc4ff;
+}
+
+.t5 {
+    background-color: #2c88ff;
+}

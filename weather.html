@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- if we want to have a rtl application we must write dir="rtl" in html tag -->
+<html dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title> Weather | JS modern</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/weather-icons/css/weather-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+<!-- my-3 margin of top&bottom -->
+
+<body>
+    <div class="container">
+        <div class="w-50 my-5 mx-auto my-3">
+            <h1 class="text-center"> Weather app </h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-7 mx-auto">
+                    <form id="city">
+                        <input name="city" placeholder="شهر..." class="form-control mb-3">
+                    </form>
+                    <div id="app">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="weather.js">
+    </script>
+</body>
+
+</html>
